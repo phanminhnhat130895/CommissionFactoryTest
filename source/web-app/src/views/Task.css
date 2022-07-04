@@ -1,0 +1,123 @@
+.task-container {
+    padding: 50px 100px;
+}
+
+.table-container {
+    border-radius: 10px;
+}
+
+.task-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.task-table th {
+    background-color: #e7eaf5;
+    font-size: 15px;
+    padding: 15px 5px;
+}
+
+.task-table td {
+    border-bottom: 1px solid #e7eaf5;
+    padding: 10px 5px;
+}
+
+.task-table tbody .item:hover {
+    background-color: #ebf9fc;
+}
+
+.task-table th, .task-table td {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.page-header {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.create-button {
+    border: none;
+    background-color: transparent;
+    color: #00b2d5;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.create-button:hover {
+    text-decoration: underline;
+}
+
+.border-radius-top-left {
+    border-top-left-radius: 10px;
+}
+
+.border-radius-top-right {
+    border-top-right-radius: 8px;
+}
+
+.border-radius-bottom {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none !important;
+    padding: 17px 5px !important;
+}
+
+.menu {
+    position: fixed;
+    width: 70px;
+    height: 78px;
+    background-color: white;
+    z-index: 10001;
+    border-radius: 5px;
+    margin-left: -25px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.menu ul {
+    list-style-type: none;
+    padding-left: 0px;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.menu ul li {
+    cursor: pointer;
+    padding: 8px 10px;
+    text-align: left;
+}
+
+.menu ul li:hover {
+    background-color: aliceblue;
+}
+
+.context-btn {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 15px;
+    padding-left: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.context-btn:hover {
+    background-color: #00b2d514;
+}
+
+.context-btn:after {
+    content: '\2807';
+    font-size: 20px;
+}
+
+.custom-checkbox {
+    accent-color: rgb(0, 162, 193);
+}
